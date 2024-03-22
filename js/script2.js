@@ -21,7 +21,7 @@ function isPalindrome (text) {
     console.log(text)//return boolean
 
     //generare stringa invertita
-    const parolaInvertita = parola. toLowerCase(). split(''). reverse(). join('')
+    const parolaInvertita = parola. toLowerCase(). split(''). reverse(). join('') // split converte in array, reverse cambia l'ordine di lettura e, join è in collante tra gli spazi
     console.log (parolaInvertita)
 
 
